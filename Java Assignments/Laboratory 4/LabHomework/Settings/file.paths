@@ -1,0 +1,10 @@
+PatientsCSV=LabHomework/SavedFiles/patients.csv
+DentistsCSV=LabHomework/SavedFiles/dentists.csv
+AppointmentsCSV=LabHomework/SavedFiles/appointments.csv
+PatientsBinary=LabHomework/SavedFiles/patients.bin
+DentistsBinary=LabHomework/SavedFiles/dentists.bin
+AppointmentsBinary=LabHomework/SavedFiles/appointments.bin
+PatientsDB=jdbc:sqlite:LabHomework/SavedFiles/Database.db
+DentistsDB=jdbc:sqlite:LabHomework/SavedFiles/Database.db
+AppointmentsDB=jdbc:sqlite:LabHomework/SavedFiles/Database.db
+

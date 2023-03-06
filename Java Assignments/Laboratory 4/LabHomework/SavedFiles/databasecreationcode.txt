@@ -1,0 +1,34 @@
+create table Patient
+(
+    patient_id                    integer
+        constraint Patient_pk
+            primary key,
+    patient_name                  TEXT,
+    patient_age                   integer,
+    patient_phone_number          text,
+    patient_identification_number integer
+);
+
+create table Dentist
+(
+    dentist_id     integer
+        constraint Dentist_pk
+            primary key,
+    dentist_name   text,
+    dentist_rating real
+);
+
+
+
+create table Appointments
+(
+    appointment_id       integer
+        constraint table_name_pk
+            primary key,
+    appointment_details  text,
+    appointment_date     text,
+    appointment_duration integer,
+    dentist_id           integer,
+    patient_id           integer
+);
+
